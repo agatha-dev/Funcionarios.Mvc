@@ -1,6 +1,6 @@
 ## Sistema de Gerenciamento de Funcionários
 
-Este é um sistema de gerenciamento de funcionários que permite criar, ler, atualizar e excluir registros de funcionários. O sistema foi desenvolvido utilizando o padrão de arquitetura MVC no ASP.NET 7. Utilizando AutoMapper, Entity Framework.
+Este é um sistema de gerenciamento de funcionários que permite criar, ler, atualizar e excluir registros de funcionários. O sistema foi desenvolvido utilizando o padrão de arquitetura MVC no ASP.NET 7. Utilizando ORM, Entity Framework.
 
 ## Instalação
 
