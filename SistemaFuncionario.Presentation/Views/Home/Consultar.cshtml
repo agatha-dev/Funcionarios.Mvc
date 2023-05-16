@@ -1,0 +1,51 @@
+﻿@using SistemaFinanceiro.Infra.Entities
+
+@{
+    //capturar a lista de categorias q o controller gerou pra mim
+    var funcionarios = ViewBag.Funcionarios as List<Funcionario>;
+}
+
+<div class="card m-4">
+    <div class="card-body">
+         <h5>Consulta de Funcionário</h5>
+         <p>Listagem de Funcionário cadastradas.</p>
+          <hr/>
+
+        <div class="table-responsive">
+            <table class="table table-sm table-stripped table-hover">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>CPF</th>
+                         <th>Matricula</th>
+                         <th>Salário</th>
+                        <th width="200">Operações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var item in funcionarios)
+                    {
+                        <tr>
+                            <td> @item.Nome</td>
+                            <td> @item.Cpf</td>
+                            <td> @item.Matricula</td>
+                            <td> @item.Salario</td>
+                            <td>
+                                <a href="/Home/Edicao/@item.Id" 
+                                    class="btn btn-outline-primary btn-sm">
+                                    Editar
+                                </a>
+                                <a href="/Home/Exclusao/@item.Id" 
+                                   onclick="return confirm('Deseja realmente excluir o funcionario: @item.Nome?');"
+                                    class="btn btn-outline-danger btn-sm">
+                                    Excluir
+                                </a>
+
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

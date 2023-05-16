@@ -1,0 +1,85 @@
+﻿@model SistemaFuncionario.Presentation.Models.FuncionarioEdicaoViewModel
+
+<div class="container">
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-5">
+            <div class="card">
+                <div class="card-header">
+                    <div class="text-center">
+                        <h4 class="mt-2">Editar conta de Funcionário</h4>
+                        <p>Preencha os campos para editar o funcionário.</p>
+                    </div>
+                </div>
+                <div class="card-body">
+
+                    @using (Html.BeginForm())
+                    {
+                           <div class="form-group mb-2">
+                           <label for="Nome">Nome:</label>
+                            @Html.TextBoxFor(model => model.Nome, 
+                                new 
+                                {
+                                    @class="form-control",
+                                    @placeholder="Digite seu nome"
+                                })
+                                <span class="text-danger">
+                                    @Html.ValidationMessageFor(model => model.Nome)
+                                </span>
+                            </div>
+
+                            <div class="form-group mb-2">
+                                  <label for="CPF">CPF:</label>
+                            @Html.TextBoxFor(model => model.Cpf, 
+                                new 
+                                {
+                                    @class="form-control",
+                                    @placeholder="Digite seu Cpf"
+                                }) 
+                                     <span class="text-danger">
+                                          @Html.ValidationMessageFor(model => model.Cpf)
+                                    </span>
+                            </div>
+
+                             <div class="form-group mb-2">
+                                  <label for="Matricula">Mátricula:</label>
+                            @Html.TextBoxFor(model => model.Matricula,
+                              new 
+                              {
+                                    @class="form-control",
+                                    @placeholder="Digite sua Mátricula"
+                                }) 
+                                     <span class="text-danger">
+                                          @Html.ValidationMessageFor(model => model.Matricula)
+                                    </span>
+                            </div>
+
+                           
+                             <div class="form-group mb-2">
+                              <label for="Salario">Salário:</label>
+                            @Html.TextBoxFor(model => model.Salario,
+                              new 
+                              {
+                                    @class="form-control",
+                                    @placeholder="Digite seu Salário"
+                                }) 
+                                     <span class="text-danger">
+                                          @Html.ValidationMessageFor(model => model.Salario)
+                                    </span>
+                            </div>
+                            
+               
+                      <div class="row mb-2">
+                        <div class="d-grid mb-2">
+                            <button type="submit" class="btn btn-primary">Realizar Edição</button>
+                            <a href="/Home/Consultar" class="btn btn-light">Voltar para a consulta</a>
+                        </div>
+                      </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

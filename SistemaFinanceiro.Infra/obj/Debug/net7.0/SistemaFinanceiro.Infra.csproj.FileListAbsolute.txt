@@ -1,0 +1,14 @@
+C:\Users\Infis001079\Desktop\Treinamento C# WEBDEVELOPER\SistemaFuncionario\SistemaFinanceiro.Infra\bin\Debug\net7.0\SistemaFinanceiro.Infra.deps.json
+C:\Users\Infis001079\Desktop\Treinamento C# WEBDEVELOPER\SistemaFuncionario\SistemaFinanceiro.Infra\bin\Debug\net7.0\SistemaFinanceiro.Infra.dll
+C:\Users\Infis001079\Desktop\Treinamento C# WEBDEVELOPER\SistemaFuncionario\SistemaFinanceiro.Infra\bin\Debug\net7.0\SistemaFinanceiro.Infra.pdb
+C:\Users\Infis001079\Desktop\Treinamento C# WEBDEVELOPER\SistemaFuncionario\SistemaFinanceiro.Infra\obj\Debug\net7.0\SistemaFinanceiro.Infra.csproj.AssemblyReference.cache
+C:\Users\Infis001079\Desktop\Treinamento C# WEBDEVELOPER\SistemaFuncionario\SistemaFinanceiro.Infra\obj\Debug\net7.0\SistemaFinanceiro.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Infis001079\Desktop\Treinamento C# WEBDEVELOPER\SistemaFuncionario\SistemaFinanceiro.Infra\obj\Debug\net7.0\SistemaFinanceiro.Infra.AssemblyInfoInputs.cache
+C:\Users\Infis001079\Desktop\Treinamento C# WEBDEVELOPER\SistemaFuncionario\SistemaFinanceiro.Infra\obj\Debug\net7.0\SistemaFinanceiro.Infra.AssemblyInfo.cs
+C:\Users\Infis001079\Desktop\Treinamento C# WEBDEVELOPER\SistemaFuncionario\SistemaFinanceiro.Infra\obj\Debug\net7.0\SistemaFinanceiro.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Infis001079\Desktop\Treinamento C# WEBDEVELOPER\SistemaFuncionario\SistemaFinanceiro.Infra\obj\Debug\net7.0\SistemaFinanceiro.Infra.dll
+C:\Users\Infis001079\Desktop\Treinamento C# WEBDEVELOPER\SistemaFuncionario\SistemaFinanceiro.Infra\obj\Debug\net7.0\refint\SistemaFinanceiro.Infra.dll
+C:\Users\Infis001079\Desktop\Treinamento C# WEBDEVELOPER\SistemaFuncionario\SistemaFinanceiro.Infra\obj\Debug\net7.0\SistemaFinanceiro.Infra.pdb
+C:\Users\Infis001079\Desktop\Treinamento C# WEBDEVELOPER\SistemaFuncionario\SistemaFinanceiro.Infra\obj\Debug\net7.0\ref\SistemaFinanceiro.Infra.dll
+C:\Users\Infis001079\Desktop\Treinamento C# WEBDEVELOPER\SistemaFuncionario\SistemaFinanceiro.Infra\bin\Debug\net7.0\SistemaFinanceiro.Infra.runtimeconfig.json
+C:\Users\Infis001079\Desktop\Treinamento C# WEBDEVELOPER\SistemaFuncionario\SistemaFinanceiro.Infra\obj\Debug\net7.0\SistemaFinanceiro.Infra.genruntimeconfig.cache
